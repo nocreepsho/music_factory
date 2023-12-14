@@ -1,4 +1,4 @@
-# Music Factory: Text to Music 🧙
+# Music Factory: Text to Music 🎵
 
 ### Description
 Music Factory is a text to music interface that uses Meta's `MusicGen` model to generate music based on text prompts provided by the user.
