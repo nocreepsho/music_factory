@@ -5,6 +5,8 @@ Music Factory is a text to music interface that uses Meta's `MusicGen` model to 
 
 The application is built using `NextJS` and features a clean UI desgin leveraging `Tailwind CSS`
 
+<img src='screen.png' width='720'>
+
 The model is hosted on demand using Replicate (https://replicate.com/meta/musicgen).
 
 ### Installation
