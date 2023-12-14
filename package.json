@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "ldrs": "^1.0.1",
+    "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.3"
+    "react-icons": "^4.12.0",
+    "replicate": "^0.22.0",
+    "wavesurfer.js": "^7.5.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
