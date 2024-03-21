@@ -1,5 +1,7 @@
 import Replicate from "replicate";
 
+export const maxDuration = 60;
+
 export const POST = async (req, res) => {
     const { prompt, duration } = await req.json();
 
