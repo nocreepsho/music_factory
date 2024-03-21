@@ -134,7 +134,7 @@ const Home = () => {
                   onClick={handleLuSettingsClick}
                 />
                 {dropdownOpen && (
-                  <div className="absolute top-full left-0 mt-2 bg-darker_leaf_green p-2 rounded-lg font-medium shadow-md transition-all transition-[height] duration-500 ease-out ">
+                  <div className="absolute top-full left-0 mt-2 bg-darker_leaf_green p-2 rounded-lg font-medium shadow-md transition-[height] duration-500 ease-out ">
                     <label>
                       Duration (seconds):
                       <input
@@ -158,8 +158,11 @@ const Home = () => {
 
       <div className="w-full mt-16 p-6 m-h-max">
 
-        {submitting && <div className="flex items-center justify-center">
+        {submitting && <div className="flex flex-col items-center justify-center">
           <Loader />
+
+          {/* Only for my deployed demo, can remove this warning */}
+          <span className="text-lg mt-5 font-normal max-w-[300px]">This project is a demo, and runs on a slow instance. Might take a minute...</span>
         </div>}
 
         {audio && (
